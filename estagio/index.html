@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ScuaLogon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!--Script JQUERY-->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js" integrity="
+  sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="  crossorigin="anonymous"></script>
+  <!--Style-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="btnOpen"><img src="menu1.png"></div>
+    <nav class="menulat">
+        <div class="titulo"><img src="logo-branco.png" >Scua Logon<span class="material-symbols-outlined btnClose">
+            close
+            </span></div>
+        <ul>
+            <li><a href="#"> <img src="home.svg">REP</a></li>
+            <li><a href="#"> <img src="user.svg"> Usuários</a></li>
+            <li><a href="#"> <img src="journey.svg"> Jornada de trabalho</a></li>
+            <li><a href="#"> <img src="overtime.svg"> Extenção de Jornada</a></li>
+            <li><a href="#" class="relatorios"  > <img src="reports.svg">Relatórios<span class="material-symbols-outlined seta1">
+                arrow_right
+                </span></a>
+            <ul class="itensRelat">
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Horas Extras</a></li>
+                <li><a href="#">Logon logoff</a></li>
+                <li><a href="#">Ranking por estações</a></li>
+                <li class="subRelat"><a href="#">Liberações por área</a>
+                    <ul>
+                    <li><a href="#">Exemplo 1</a></li><!--Nao consegui fazer os Sub dos subs :( )-->
+                    <li><a href="#">Exemplo 2</a></li>
+                    <li><a href="#">Exemplo 3</a></li><!--A intenção é fazer submenus dentro dos submenus em areas repedidas, EX:Liberaçoes >Liberações por área > Liberações por gestores-->
+                </ul>
+                </li>
+                <li><a href="#">Liberações por gestores</a></li>
+                <li><a href="#">Estações</a></li>
+                <li><a href="#">Estações inativas</a></li>
+                <li><a href="#">Usuários x Ultima data controle</a></li>
+                <li><a href="#">Jornada e Controle</a></li>
+                <li><a href="#">Relatorio de Licenças</a></li>
+                <li><a href="#">Batidas de ponto</a></li>
+            </ul>
+        </li>
+            <li><a href="#"><img src="charge.png"> Carga de Dados</a></li>
+            <li><a href="#" class="estacoes"><img src="monitorp.png"> Estações <span class="material-symbols-outlined seta2">
+                arrow_right
+                </span></a>
+            <ul class="itensEstac">
+                <li><a href="#">scuacorporate.com.br</a></li>
+            </ul>
+        </li>
+            <li><a href="#" class="administrador"><img src="admin.svg"> Administrador<span class="material-symbols-outlined seta3">
+                arrow_right
+                </span></a>
+            <ul class="itensAdmin">
+                <li><a href="#">Domínio</a></li>
+                <li><a href="#">Tipo de jornada</a></li>
+                <li><a href="#">Parâmetros</a></li>
+                <li><a href="#">Menssagens</a></li><!--Aqui tambem, talvez unificar algumas coisa, Ex: Estaçoes-->
+                <li><a href="#">Menssagens por tempo</a></li>
+                <li><a href="#">Justificativas</a></li>
+                <li><a href="#">Feriados</a></li>
+                <li><a href="#">Grupos</a></li>
+                <li><a href="#">Notificações</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul> <!--As unicar melhorias se forem possiveis fazer, Seria conseguir fechar os modais com ESC ao inves de click
+            e tambem ao fechar o modal, a pagina é recarregada, mesmo sem nenhuma alteraçao, removendo por exemplo, a quantidade de linhas, se coloquei pra
+        visualisar 100, ele atualiza a pagina assim que fecho o modal, e volta pra 15
+    No menu de grupo de açoes eu realmente nao tive nenhuma ideia de melhorias, acho que esta bem didadico-->
+        </li>
+            <li><a href="#"><img src="calendario.svg">Liberação por Diretoria</a></li>
+            <li><a href="#"><img src="logout.svg"> Sair</a></li>
+        </ul>
+    </nav>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+
+
+
+</html>

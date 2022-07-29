@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.menulat{
+    background-color: rgba(45, 43, 43, 0.958);
+    width: 350px;
+    height: 100%;
+    position: fixed;
+    left: -350px;
+    transition: left 0.5s;
+}
+.menulat .titulo{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 25px;
+    border-bottom: 1px solid blue;
+}
+.menulat ul{
+    list-style: none;
+}
+.menulat ul li{
+    line-height: 35px;
+    border-bottom: 1px solid white;
+}
+.menulat ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    display: block;
+    padding-top: 25px;
+}
+.menulat ul li a:hover{
+    background-color: rgb(23, 23, 96);
+    transition: 0.5s;
+}
+.menulat ul ul li a{
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 60px;
+    background-color: rgba(26, 4, 61, 0.418);
+}
+.menulat ul ul{
+    display: none;
+}
+.menulat ul .itensRelat.mostra{
+    display: block;
+}
+.menulat ul .itensEstac.mostra{
+    display: block;
+}
+.menulat ul .itensAdmin.mostra{
+    display: block;
+}
+.btnOpen{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer ;
+}
+.menulat.mostra{
+    left: 0;
+}
+.btnClose{
+    position: relative;
+    left: 15px;
+    top: 3px;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnClose:hover{
+    border: 1px solid blue;
+}
+.menulat ul li a span{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+}
+.menulat ul li a span.move{
+    transform: rotate(90deg);
+
+}
+body{
+    background: url(bg.png);
+    background-size: 100%;
+    
+}
